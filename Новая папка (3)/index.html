@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="tg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Бозори Нав | Хариду Фурӯш</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+        
+        body {
+            font-family: 'Ubuntu', sans-serif;
+            background-color: #f6f7f9;
+        }
+
+        .card-hover:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+            transition: all 0.3s ease;
+        }
+
+        .search-focus:focus {
+            width: 100%;
+            transition: all 0.4s ease;
+        }
+
+        .category-icon {
+            transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+
+        .category-item:hover .category-icon {
+            transform: scale(1.2) rotate(5deg);
+        }
+
+        /* Аниматсияи дурахши тугма */
+        .btn-glow {
+            position: relative;
+            overflow: hidden;
+        }
+        .btn-glow::after {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: rgba(255,255,255,0.2);
+            transform: rotate(45deg);
+            transition: 0.5s;
+            left: -100%;
+        }
+        .btn-glow:hover::after {
+            left: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3 flex items-center justify-between">
+            <div class="flex items-center space-x-8">
+                <h1 class="text-2xl font-bold text-blue-600 animate__animated animate__fadeInLeft">БОЗОР.ТҶ</h1>
+                <div class="hidden md:flex space-x-4 text-gray-600">
+                    <a href="#" class="hover:text-blue-500 transition">Мошинҳо</a>
+                    <a href="#" class="hover:text-blue-500 transition">Хонаҳо</a>
+                    <a href="#" class="hover:text-blue-500 transition">Кор</a>
+                </div>
+            </div>
+            <div class="flex items-center space-x-4">
+                <button class="text-gray-600 hover:text-blue-500">Ворид шудан</button>
+                <button class="btn-glow bg-blue-600 text-white px-5 py-2 rounded-lg font-medium transition">Эълон додан</button>
+            </div>
+        </div>
+    </nav>
+
+    <header class="bg-white border-b py-8 animate__animated animate__fadeIn">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto flex flex-col md:flex-row gap-2">
+                <input type="text" placeholder="Ҷустуҷӯи эълонҳо..." class="flex-grow p-4 border-2 border-gray-100 rounded-xl focus:border-blue-400 outline-none transition-all">
+                <button class="bg-blue-500 text-white px-8 py-4 rounded-xl hover:bg-blue-700 transition font-bold">Ёфтан</button>
+            </div>
+        </div>
+    </header>
+
+    <section class="container mx-auto px-4 py-10">
+        <div class="grid grid-cols-2 md:grid-cols-6 gap-4 animate__animated animate__fadeInUp">
+            <div class="category-item bg-white p-6 rounded-2xl text-center cursor-pointer shadow-sm card-hover">
+                <div class="category-icon text-4xl mb-2">🚗</div>
+                <p class="font-medium text-gray-700">Нақлиёт</p>
+            </div>
+            <div class="category-item bg-white p-6 rounded-2xl text-center cursor-pointer shadow-sm card-hover">
+                <div class="category-icon text-4xl mb-2">🏠</div>
+                <p class="font-medium text-gray-700">Амвол</p>
+            </div>
+            <div class="category-item bg-white p-6 rounded-2xl text-center cursor-pointer shadow-sm card-hover">
+                <div class="category-icon text-4xl mb-2">📱</div>
+                <p class="font-medium text-gray-700">Телефонҳо</p>
+            </div>
+            <div class="category-item bg-white p-6 rounded-2xl text-center cursor-pointer shadow-sm card-hover">
+                <div class="category-icon text-4xl mb-2">💼</div>
+                <p class="font-medium text-gray-700">Кор</p>
+            </div>
+            <div class="category-item bg-white p-6 rounded-2xl text-center cursor-pointer shadow-sm card-hover">
+                <div class="category-icon text-4xl mb-2">👕</div>
+                <p class="font-medium text-gray-700">Либос</p>
+            </div>
+            <div class="category-item bg-white p-6 rounded-2xl text-center cursor-pointer shadow-sm card-hover">
+                <div class="category-icon text-4xl mb-2">🧸</div>
+                <p class="font-medium text-gray-700">Кӯдакона</p>
+            </div>
+        </div>
+    </section>
+
+    <main class="container mx-auto px-4 py-8">
+        <h2 class="text-2xl font-bold mb-8 text-gray-800">Тавсияҳои махсус</h2>
+        
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            
+            <div class="bg-white rounded-2xl overflow-hidden shadow-sm card-hover cursor-pointer group">
+                <div class="h-48 bg-gray-200 relative overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=500&q=80" alt="Laptop" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    <span class="absolute top-2 left-2 bg-blue-600 text-white text-xs px-2 py-1 rounded">Top</span>
+                </div>
+                <div class="p-4">
+                    <h3 class="font-bold text-lg text-gray-800 hover:text-blue-600">MacBook Pro 14 M2</h3>
+                    <p class="text-xl font-black text-gray-900 mt-2">15 400 смн.</p>
+                    <p class="text-sm text-gray-500 mt-1 italic">Душанбе, имрӯз 12:40</p>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-2xl overflow-hidden shadow-sm card-hover cursor-pointer group">
+                <div class="h-48 bg-gray-200 relative overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=500&q=80" alt="Car" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                </div>
+                <div class="p-4">
+                    <h3 class="font-bold text-lg text-gray-800 hover:text-blue-600">Porsche 911 Carrera</h3>
+                    <p class="text-xl font-black text-gray-900 mt-2">850 000 смн.</p>
+                    <p class="text-sm text-gray-500 mt-1 italic">Хуҷанд, дирӯз 18:20</p>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-2xl overflow-hidden shadow-sm card-hover cursor-pointer group">
+                <div class="h-48 bg-gray-200 relative overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1512499617640-c74ae3a49dd5?auto=format&fit=crop&w=500&q=80" alt="Phone" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                </div>
+                <div class="p-4">
+                    <h3 class="font-bold text-lg text-gray-800 hover:text-blue-600">iPhone 15 Pro Max</h3>
+                    <p class="text-xl font-black text-gray-900 mt-2">12 800 смн.</p>
+                    <p class="text-sm text-gray-500 mt-1 italic">Бохтар, 2 соат пеш</p>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-2xl overflow-hidden shadow-sm card-hover cursor-pointer group">
+                <div class="h-48 bg-gray-200 relative overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=500&q=80" alt="House" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                </div>
+                <div class="p-4">
+                    <h3 class="font-bold text-lg text-gray-800 hover:text-blue-600">Ҳавлии 5-ҳуҷрагӣ</h3>
+                    <p class="text-xl font-black text-gray-900 mt-2">1 200 000 смн.</p>
+                    <p class="text-sm text-gray-500 mt-1 italic">Душанбе, 10 дақиқа пеш</p>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="bg-gray-800 text-white py-10 mt-20">
+        <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div>
+                <h3 class="text-xl font-bold mb-4">БОЗОР.ТҶ</h3>
+                <p class="text-gray-400">Бузургтарин сайти хариду фурӯш дар Тоҷикистон. Осон бихар ва зуд бифурӯш!</p>
+            </div>
+            <div>
+                <h4 class="font-bold mb-4">Бахшҳо</h4>
+                <ul class="text-gray-400 space-y-2">
+                    <li><a href="#" class="hover:text-white">Кӯмак</a></li>
+                    <li><a href="#" class="hover:text-white">Қоидаҳо</a></li>
+                    <li><a href="#" class="hover:text-white">Реклама</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-bold mb-4">Барномаи мо</h4>
+                <div class="flex space-x-4">
+                    <button class="bg-white text-black px-4 py-2 rounded-lg text-sm font-bold">App Store</button>
+                    <button class="bg-white text-black px-4 py-2 rounded-lg text-sm font-bold">Google Play</button>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Илова кардани аниматсия ҳангоми скролл (Scroll Animation)
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate__animated', 'animate__fadeInUp');
+                }
+            });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('.card-hover').forEach(card => {
+            observer.observe(card);
+        });
+    </script>
+</body>
+</html>
