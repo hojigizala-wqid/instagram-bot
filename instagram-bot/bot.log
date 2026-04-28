@@ -1,0 +1,63 @@
+2026-04-26 16:51:34,200 [INFO] Start polling
+2026-04-26 16:51:34,995 [INFO] Run polling for bot @Skachayvidoi_bot id=8267518125 - 'Скачать из Инстаграма'
+2026-04-26 16:51:58,373 [INFO] Update id=467422810 is handled. Duration 631 ms by bot id=8267518125
+2026-04-26 16:52:13,976 [INFO] Update id=467422811 is handled. Duration 12355 ms by bot id=8267518125
+2026-04-26 16:52:27,987 [INFO] Update id=467422812 is handled. Duration 2971 ms by bot id=8267518125
+2026-04-26 16:59:02,680 [INFO] Polling stopped
+2026-04-26 16:59:02,833 [ERROR] Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-04-26 16:59:02,836 [WARNING] Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8267518125)
+2026-04-26 16:59:03,157 [INFO] Polling stopped for bot @Skachayvidoi_bot id=8267518125 - 'Скачать из Инстаграма'
+2026-04-26 17:00:23,537 [INFO] Start polling
+2026-04-26 17:00:24,294 [INFO] Run polling for bot @Skachayvidoi_bot id=8267518125 - 'Скачать из Инстаграма'
+2026-04-26 17:00:48,997 [INFO] Найдено файлов: 0 для DXl2P4ODIMv
+2026-04-26 17:00:49,269 [INFO] Update id=467422813 is handled. Duration 8935 ms by bot id=8267518125
+2026-04-26 17:01:18,292 [INFO] Найдено файлов: 0 для DXmD81MDJzh
+2026-04-26 17:01:18,504 [INFO] Update id=467422814 is handled. Duration 9398 ms by bot id=8267518125
+2026-04-26 17:02:47,438 [INFO] Polling stopped
+2026-04-26 17:02:47,441 [ERROR] Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-04-26 17:02:47,476 [WARNING] Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8267518125)
+2026-04-26 17:02:47,747 [INFO] Polling stopped for bot @Skachayvidoi_bot id=8267518125 - 'Скачать из Инстаграма'
+2026-04-26 17:19:36,632 [INFO] Start polling
+2026-04-26 17:19:37,373 [INFO] Run polling for bot @Skachayvidoi_bot id=8267518125 - 'Скачать из Инстаграма'
+2026-04-26 17:20:35,486 [INFO] Найдено файлов: 0 для DXl8sxAEauY
+2026-04-26 17:20:36,185 [INFO] Update id=467422815 is handled. Duration 44435 ms by bot id=8267518125
+2026-04-26 17:20:45,407 [INFO] Polling stopped
+2026-04-26 17:20:45,411 [ERROR] Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-04-26 17:20:45,439 [WARNING] Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8267518125)
+2026-04-26 17:20:45,795 [INFO] Polling stopped for bot @Skachayvidoi_bot id=8267518125 - 'Скачать из Инстаграма'
+2026-04-26 19:37:15,720 [INFO] Start polling
+2026-04-26 19:37:16,612 [INFO] Run polling for bot @Skachayvidoi_bot id=8267518125 - 'Скачать из Инстаграма'
+2026-04-26 19:37:17,570 [INFO] Update id=467422816 is handled. Duration 683 ms by bot id=8267518125
+2026-04-26 19:37:51,630 [INFO] Найдено файлов: []
+2026-04-26 19:37:52,966 [INFO] Update id=467422817 is handled. Duration 14897 ms by bot id=8267518125
+2026-04-26 19:41:41,854 [INFO] Polling stopped
+2026-04-26 19:41:41,864 [ERROR] Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-04-26 19:41:41,864 [WARNING] Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8267518125)
+2026-04-26 19:41:42,129 [INFO] Polling stopped for bot @Skachayvidoi_bot id=8267518125 - 'Скачать из Инстаграма'
+2026-04-26 19:47:07,125 [INFO] Start polling
+2026-04-26 19:47:08,168 [INFO] Run polling for bot @Skachayvidoi_bot id=8267518125 - 'Скачать из Инстаграма'
+2026-04-26 19:47:37,409 [INFO] Update id=467422818 is handled. Duration 17441 ms by bot id=8267518125
+2026-04-26 19:49:34,975 [INFO] Update id=467422820 is handled. Duration 544 ms by bot id=8267518125
+2026-04-26 19:49:45,577 [ERROR] Error: [0;31mERROR:[0m [TikTok] 7621502128900656405: This post may not be comfortable for some audiences. Log in for access. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies
+2026-04-26 19:49:46,094 [INFO] Update id=467422821 is handled. Duration 8198 ms by bot id=8267518125
+2026-04-26 19:50:14,336 [ERROR] Error: [0;31mERROR:[0m [TikTok] 7621502128900656405: This post may not be comfortable for some audiences. Log in for access. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies
+2026-04-26 19:50:15,446 [INFO] Update id=467422822 is handled. Duration 6720 ms by bot id=8267518125
+2026-04-26 19:56:00,134 [INFO] Polling stopped
+2026-04-26 19:56:00,138 [ERROR] Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-04-26 19:56:00,156 [WARNING] Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8267518125)
+2026-04-26 19:56:00,427 [INFO] Polling stopped for bot @Skachayvidoi_bot id=8267518125 - 'Скачать из Инстаграма'
+2026-04-26 19:56:00,440 [INFO] Update id=467422819 is not handled. Duration 500428 ms by bot id=8267518125
+2026-04-26 20:23:40,524 [INFO] Start polling
+2026-04-26 20:23:41,286 [INFO] Run polling for bot @Skachayvidoi_bot id=8267518125 - 'Скачать из Инстаграма'
+2026-04-26 20:23:50,720 [INFO] Update id=467422832 is handled. Duration 706 ms by bot id=8267518125
+2026-04-26 20:24:19,099 [INFO] Update id=467422833 is handled. Duration 13801 ms by bot id=8267518125
+2026-04-26 20:25:27,446 [INFO] Update id=467422834 is handled. Duration 247 ms by bot id=8267518125
+2026-04-26 20:25:30,692 [INFO] Update id=467422835 is handled. Duration 238 ms by bot id=8267518125
+2026-04-26 20:25:36,795 [INFO] Update id=467422836 is handled. Duration 238 ms by bot id=8267518125
+2026-04-26 20:25:47,898 [INFO] Update id=467422837 is handled. Duration 295 ms by bot id=8267518125
+2026-04-26 20:25:56,097 [INFO] Update id=467422838 is handled. Duration 4889 ms by bot id=8267518125
+2026-04-26 20:27:00,892 [INFO] Update id=467422839 is not handled. Duration 3 ms by bot id=8267518125
+2026-04-26 20:28:53,165 [INFO] Polling stopped
+2026-04-26 20:28:53,172 [ERROR] Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2026-04-26 20:28:53,211 [WARNING] Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8267518125)
+2026-04-26 20:28:53,472 [INFO] Polling stopped for bot @Skachayvidoi_bot id=8267518125 - 'Скачать из Инстаграма'
